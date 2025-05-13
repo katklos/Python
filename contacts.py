@@ -71,7 +71,7 @@ def main():
             print("Dodaj kontakt")
             name = input("Podaj imię: ")
             phone = input("Podaj numer telefonu: ")
-            email = input("Podaj email")
+            email = input("Podaj email: ")
             print(add_contact(name, phone, email))
         elif choice == "2":
             print("Wyświetl kontakty")
